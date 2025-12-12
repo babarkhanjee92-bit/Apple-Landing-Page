@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Doo {
+    background-color:#F2F2F2;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header .zero {
+    margin-top: 2px;
+}
+.header .zeo{
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header1 {
+    background-color:#F2F2F2;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-image: url("./images/hero_holiday_2025_startframe__b5c6apg48kdy_largetall_2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px;
+    justify-content: center;
+    align-items: end;
+    font-size: 24px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+
+.slider {
+    display: flex;
+}
+.slider .slide{
+     width: 95%;
+     height: auto;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+margin-bottom: 30px;
+}
+
+
+
+head {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.btn {
+    display: flex;
+    border-radius: 8px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.btn button {
+    border-radius: 20px;
+    border: 1px solid rgb(0, 123, 255);
+    color: rgb(0, 123, 255);
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 24px;
+
+}
+
+.btn button:hover {
+    background-color: rgb(0, 60, 255);
+    color: azure;
+}
+
+
+.header2 {
+    margin-top: 20px;
+    display: flex;
+    height: 650px;
+    width: 100%;
+    background-image: url("./images/hero_iphone_family__fuz5j2v5xx6y_largetall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: start;
+    font-size: 24px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.head1 {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn1 {
+    display: flex;
+    border-radius: 8px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.btn1 button {
+    border-radius: 20px;
+    border: 1px solid rgb(0, 123, 255);
+    color: rgb(0, 123, 255);
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 24px;
+
+}
+
+.btn1 button:hover {
+    background-color: rgb(0, 60, 255);
+    color: azure;
+}
+
+
+.header3 {
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    height: 650px;
+    width: 100%;
+    background-image: url("./images/hero_airpodspro_3__dn7gz4l22ree_largetall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: start;
+    align-items: center;
+    font-size: 24px;
+    flex-direction: column;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.head1 {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sp {
+    display: flex;
+    border-radius: 8px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 19px;
+    letter-spacing: 5px;
+
+}
+
+.sp {
+    border-radius: 20px;
+    border: 1px solid rgb(0, 123, 255);
+    color: rgb(0, 123, 255);
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.sp:hover {
+    background-color: rgb(0, 60, 255);
+    color: azure;
+}
+
+
+.parent {
+    display: flex;
+    gap: 20px;
+}
+
+.header4 {
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    height: 500px;
+    width: 50%;
+    background-image: url("./images/promo_ipad_air_avail__6i02t7nujr62_large_2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: start;
+    align-items: center;
+    font-size: 24px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.header5 {
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    height: 500px;
+    width: 50%;
+    background-image: url("./images/promo_apple_watch_series_11__b63hxviqvonm_large_2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: start;
+    align-items: center;
+    font-size: 24px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+
+.parent1 {
+    display: flex;
+    gap: 20px;
+}
+
+.header6 {
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    height: 500px;
+    width: 50%;
+    background-image: url("./images/promo_iphone_tradein__bugw15ka691e_large_2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: start;
+    align-items: center;
+    font-size: 24px;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.header7 {
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    height: 500px;
+    width: 50%;
+    background-image: url("./images/promo_apple_card__5cm7draujpey_large.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: start;
+    align-items: center;
+    font-size: 24px;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.para {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.para p {
+
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+
+footer {
+    padding: 40px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-spacing: 50px;
+}
+
+.footer ul {
+    flex-direction: column;
+    justify-content: center;
+    justify-content: start;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+.lst {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+}
+
+.pra {
+    margin-left: 10px;
+}
+
+
+.lst1 {
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.pra1 {
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+
+.pra2 {
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 10px
+}
